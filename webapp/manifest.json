@@ -1,0 +1,17 @@
+{
+    "name": "Mindbug Tracker",
+    "short_name": "Mindbug",
+    "description": "Compteur de points de vie pour Mindbug",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#0c0415",
+    "theme_color": "#0c0415",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/brain.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml"
+        }
+    ]
+}

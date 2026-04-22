@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#0c0415">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="manifest.json">
+    <title>Mindbug Life Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Joueur 1 (Haut, inversé) -->
+        <section id="player1" class="player-zone">
+            
+            <div class="counter-container">
+                <button class="btn-ctrl" onclick="changeScore(1, -1)">−</button>
+                <div id="score1" class="score-display">3</div>
+                <button class="btn-ctrl" onclick="changeScore(1, 1)">+</button>
+            </div>
+        </section>
+
+        <!-- Zone Centrale (Logo & Reset) -->
+        <section class="center-zone">
+            <div class="logo-wrapper">
+                <div class="logo-text">MINDBUG</div>
+                <button class="reset-btn" onclick="resetScores()" aria-label="Réinitialiser">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                        <path d="M3 3v5h5"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- Joueur 2 (Bas) -->
+        <section id="player2" class="player-zone">
+
+            <div class="counter-container">
+                <button class="btn-ctrl" onclick="changeScore(2, -1)">−</button>
+                <div id="score2" class="score-display">3</div>
+                <button class="btn-ctrl" onclick="changeScore(2, 1)">+</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
