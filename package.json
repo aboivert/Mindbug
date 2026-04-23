@@ -1,0 +1,29 @@
+{
+  "name": "mindbug",
+  "version": "1.0.0",
+  "description": "Cette application web a été conçue pour les joueurs du jeu de cartes **Mindbug**. En voyage, oubliez les jetons : suivez vos points de vie directement sur votre téléphone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboivert/Mindbug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aboivert/Mindbug/issues"
+  },
+  "homepage": "https://github.com/aboivert/Mindbug#readme",
+  "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/cli": "^8.3.1",
+    "@capacitor/core": "^8.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5"
+  }
+}

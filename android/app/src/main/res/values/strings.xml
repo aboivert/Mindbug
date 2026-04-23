@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Mindbug</string>
+    <string name="title_activity_main">Mindbug</string>
+    <string name="package_name">com.mindbug.app</string>
+    <string name="custom_url_scheme">com.mindbug.app</string>
+</resources>
